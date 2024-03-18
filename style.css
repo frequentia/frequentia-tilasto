@@ -216,6 +216,12 @@ section{
         margin-left: 30%;
         margin-right: 10%;
     }
+    .banner--fadeBottom{
+        position: fixed;
+    }
+    .banner--fadeLeft{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 440px){
@@ -231,6 +237,9 @@ section{
         padding-left: 50px;
         padding-right: 50px;
         margin-top: 0px;
+    }
+    .banner--fadeLeft{
+        display: none;
     }
 }
 .footer {
